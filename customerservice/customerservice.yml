@@ -1,4 +1,2 @@
-application:
-  config:
-    message: this is test message for customer config server.
-    evn: default
+application.config.message=this is test message for customer config server.
+application.config.evn=default

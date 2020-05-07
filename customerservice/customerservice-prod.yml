@@ -1,4 +1,2 @@
-application:
-  config:
-    message: this is test message for customer config server.
-    env: prod
+application.config.message=this is test message for customer config server.
+application.config.env=prod
