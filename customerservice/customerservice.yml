@@ -1,0 +1,4 @@
+application:
+  config:
+    message: this is test message for customer config server.
+    evn: default
