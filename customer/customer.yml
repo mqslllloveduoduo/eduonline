@@ -18,5 +18,3 @@ mybatis:
     lazy-loading-enabled: true
 #    aggressive-lazy-loading: false
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # show sql in console
-application:
-  message: this is customer warning message from github.
