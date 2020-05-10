@@ -1,7 +1,7 @@
 spring:
   jackson:
     serialization:
-      indent-output: true
+      indent-output: false
   datasource:
     url: jdbc:mysql://localhost:3306/mysql?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: root
