@@ -1,2 +1,22 @@
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/mysql?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: mqslll20141026
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis::
+    database: 0
+    host: localhost
+    port: 6379
+mybatis:
+  mapper-locations: classpath:/mapping/*.xml
+  type-aliases-package: com.mqslll.edu.online.customer.entity
+  configuration:
+    lazy-loading-enabled: true
+#    aggressive-lazy-loading: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # show sql in console
 application:
-  message: this is customer warning message from github yaya mama baba www aaa bbb ccc ddd eee fff ggg hhh iii.
+  message: this is customer warning message from local.
